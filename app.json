@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "magic-debug",
+    "slug": "magic-debug",
+    "version": "1.0.0",
+    "scheme": "com.magic.debug",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.magic.debug",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.magic.debug",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

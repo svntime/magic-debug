@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "magic-debug",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "dependencies": {
+    "@magic-ext/react-native-expo-oauth": "^25.2.0",
+    "@magic-ext/solana": "^25.4.0",
+    "@magic-sdk/react-native-expo": "^29.2.0",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-community/netinfo": "11.3.1",
+    "@solana/web3.js": "^1.95.2",
+    "@tanstack/react-query": "^5.51.21",
+    "expo": "~51.0.32",
+    "expo-font": "~12.0.10",
+    "expo-router": "~3.5.23",
+    "expo-splash-screen": "~0.27.5",
+    "expo-status-bar": "~1.12.1",
+    "magic-sdk": "^28.2.0",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-gesture-handler": "^2.16.2",
+    "react-native-logs": "^5.1.0",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "react-native-webview": "^13.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.2.79",
+    "expo-dev-client": "4.0.27",
+    "typescript": "~5.3.3"
+  }
+}

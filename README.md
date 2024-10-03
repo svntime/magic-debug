@@ -1,1 +1,1 @@
-# magic-debug
+## 👋 magic-debug
