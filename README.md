@@ -1,8 +1,13 @@
 ## 👋 magic-debug
 
-1. install dependencies (`pnpm install`)
-2. run the app using scripts from package.json (`pnpm ios` or `pnpm android`)
-3. check logs in termial, examples:
+1. create .env file
+```
+EXPO_PUBLIC_MAGIC_PUBLISHABLE_API_KEY=
+EXPO_PUBLIC_SOLANA_RPC_NODE_URL=https://api.devnet.solana.com
+```
+2. install dependencies (`pnpm install`)
+3. run the app using scripts from package.json (`pnpm ios` or `pnpm android`)
+4. check logs in termial, examples:
 
 ```
 # android
